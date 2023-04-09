@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information and Enrollment System, NIELIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="head1">
+        <img src="logo-bg.png" alt="NIELIT logo">
+        <div class="HE1">
+            <h3>National Institute of Electronics and Information Technology</h3>
+            <p>Ministry of Electronics and Information Technology, Government of India</p>
+        </div>
+    </div>
+    <div class="time">
+        <p> December 8, 2022; 2:22:30 pm </p>
+    </div>
+    <div class="container">
+        <div class="head3">
+            <h3>Examination Application Form: Course on Computer Concepts(CCC)</h3>
+            <p>* अनिवार्य फिल्डस (Mandatory fields)</p>
+        </div>
+
+        <form action="first.html">
+
+            <div class="head2">
+                <h3>
+                    1. Registration Details / पंजीकरण के विवरण
+                </h3>
+            </div>
+            <table>
+                <tr>
+                    <td class="col1">1.0</td>
+                    <td class="col2">Have you got online reference number for enrollment with
+                        NIELIT/Accreditation/Extension Center*</td>
+                    <td>
+                        <input type="radio" name=" " id="No / नहीं">
+                        <label for="No / नहीं">No / नहीं</label>&nbsp;&nbsp;
+                        <input type="radio" name=" " id="Yes / हां">
+                        <label for="Yes / हां">Yes / हां</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">1.0</td>
+                    <td class="col2">Whether Applied Previously in CCC Examination / क्या आपने पहले CCCपरीक्षा के लिए
+                        आवेदन किया है"
+                        *
+                    </td>
+                    <td class="col3">
+                        <input type="radio" name=" " id="No / नहीं">
+                        <label for="No / नहीं">No / नहीं</label> &nbsp;&nbsp;
+                        <input type="radio" name=" " id="Yes / हां">
+                        <label for="Yes / हां">Yes / हां</label>
+                    </td>
+                </tr>
+            </table>
+            <div class="head2">
+                <h3>
+                    2. Applicant's Personal Details /आवेदक का व्यक्तिगत विवरण
+                </h3>
+            </div>
+            <table>
+                <tr>
+                    <td class="col1">2.1</td>
+                    <td class="col2">Applicant's Full Name / आवेदक का पूरा नाम *</td>
+                    <td class="col3">
+                        <select name="name" id="name">
+                            <option value="Select" placeholder="--Select--">--Select--</option>
+                            <option value="Mr.">Mr.</option>
+                            <option value="Ms.">Ms.</option>
+                            <option value="Others">Others</option>
+
+                            <input type="text" value="name" id="">
+                            <p>( Full name as per the highest / latest qualification certificate or legal certificate )
+                            </p>
+                    </td>
+                </tr>
+                </select>
+                <tr>
+                    <td class="col1">2.2</td>
+                    <td class="col2">Care Of / देखभाल *</td>
+                    <td class="col3">
+                        <input type="radio" name="radio" id="">
+                        <label for=" Parents / माता पिता or/या"> Parents / माता पिता &nbsp;&nbsp; or/या
+                            &nbsp;&nbsp;</label>
+                        <input type="radio" name="radio" id="">
+                        <label for="Guardian / संरक्षक ">Guardian / संरक्षक </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col1">2.2.1</td>
+                    <td class="col2">Father's Name / पिता का नाम *</td>
+                    <td class="col3">
+                        <select name="" id="">
+                            <option value="Mr.">Mr.</option>
+                        </select>
+                        <input type="text" name="name" id="">
+                        <p>( Full Name As Per Educational/Legal Certificate )</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">2.2.2</td>
+                    <td class="col2"> Mother's Name / माता का नाम *</td>
+                    <td class="col3">
+                        <select name="" id="">
+                            <option value="Ms.">Ms.</option>
+                        </select>
+                        <input type="text" name="name" id="">
+                        <p>( Full Name As Per Educational/Legal Certificate )</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">2.3</td>
+                    <td class="col2"> Gender / लिंग*</td>
+                    <td class="col3"><select name="gender" id="">
+                            <option value="select" placeholder="Select">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col1">2.4</td>
+                    <td class="col2">Date of Birth / जन्म दिनांक * (dd-Mon-yyyy)</td>
+                    <td class="col3"><input type="date">
+                        <p>( As per high school certificate in 'dd-Mon-yyyy' format. i.e. '01-Jan-1990' ) </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">2.5</td>
+                    <td class="col2">Category / वर्ग*</td>
+                    <td class="col3">
+                        <select name="category" id="">
+                            <option value="select" placeholder="Select">Select</option>
+
+                            <option value="general">General</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc">SC</option>
+                            <option value="st">ST</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">2.6</td>
+                    <td class="col2">Occupation / व्यवसाय *</td>
+                    <td class="col3">
+                        <select name="Occupation" id="">
+                            <option value="government employee">Government Employee</option>
+                            <option value="government undertaking">Government Undertaking</option>
+                            <option value="self employe">Self Employe</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">2.7</td>
+                    <td class="col2"> Disability / दिव्यांगता*</td>
+                    <td class="col3">
+                        <input type="radio" name="" id="">
+                        <label for="No / नहीं ">No / नहीं </label>&nbsp;&nbsp;
+                        <input type="radio" name="" id="">
+                        <label for="Yes / हाँ ">Yes / हाँ </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">2.8</td>
+                    <td class="col2">EWS / आर्थिक रूप से कमजोर वर्ग *</td>
+                    <td class="col3">
+                        <input type="radio" name="radio" id="">
+                        <label for="No / नहीं ">No / नहीं </label>&nbsp;&nbsp;
+                        <input type="radio" name="radio" id="">
+                        <label for="Yes / हाँ ">Yes / हाँ </label>
+                    </td>
+                </tr>
+            </table>
+            <div class="head2">
+                <h3>3. Contact Details / संपर्क विवरण</h3>
+            </div>
+            <table>
+                <tr>
+                    <td class="col1">3.1</td>
+                    <td class="col2">Phone with STD Code / दूरभाष एस टी डी कोड सहित</td>
+                    <td class="col3">
+                        <input type="text" name="" id="">
+                        <input type="text " name="number" id="">
+                        <p> (एसटीडी कोड) (दूरभाष संख्या) </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">3.2</td>
+                    <td class="col2">Mobile / मोबाइल *</td>
+                    <td class="col3">
+                        <input type="text" name="" id="" placeholder="+91">
+                        <input type="text " name="number" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">3.3</td>
+                    <td class="col2"> Email / ईमेल पता * </td>
+                    <td class="col3"><input type="email" name="email" id="" placeholder="Email"></td>
+                </tr>
+            </table>
+            <div class="head2">
+                <h3>4. Address Details / पता विवरण </h3>
+            </div>
+            <table>
+                <tr>
+                    <td class="col1">4.1</td>
+                    <td class="col2">Address Line 1/पता पंक्ति 1 *</td>
+                    <td class="col3">
+                        <input type="address" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">4.2</td>
+                    <td class="col2">Address Line 2/पता पंक्ति 2 *</td>
+                    <td class="col3">
+                        <input type="address" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col1">4.3</td>
+                    <td class="col2">Address Line 3/पता पंक्ति 3 </td>
+                    <td class="col3">
+                        <input type="address" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">4.4</td>
+                    <td class="col2">City Name / शहर का नाम * </td>
+                    <td class="col3">
+                        <input type="city" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col1">4.5</td>
+                    <td class="col2"> state / राज्य *</td>
+                    <td class="col3">
+                        <select name="state" id="">
+                            <option value="select" placeholder="slect one">Select One</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">4.6</td>
+                    <td class="col2"> District / जिला *</td>
+                    <td class="col3">
+                        <select name="Dist" id="">
+                            <option value="select" placeholder="slect one">Select one</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">4.7</td>
+                    <td class="col2">Pin Code / पिन कोड *</td>
+                    <td class="col3"><input type="text" name="" id=""></td>
+
+                </tr>
+            </table>
+            <div class="head2">
+                <h3>5. Educational / Qualification Details / शैक्षिक / योग्यता का विवरण </h3>
+            </div>
+
+            <table>
+                <tr>
+                    <td class="col1">5.1</td>
+                    <td class="col2">Highest Educational Qualification / उच्चतम शैक्षिक योग्यता*</td>
+                    <td class="col3">
+                        <select name="qualification" id="">
+                            <option value="select">Select one</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">5.2</td>
+                    <td class="col2"> Year of Passing / उत्तीर्ण वर्ष * </td>
+                    <td class="col3"><input type="number"></td>
+
+                </tr>
+            </table>
+
+            <div class="head2">
+                <h3>6. Examination Details / परीक्षा विवरण *</h3>
+            </div>
+            <table>
+                <tr>
+                    <td class="col1">6.1</td>
+                    <td class="col2">Applied As / किसके रूप में आवेदन किया*</td>
+                    <td class="col3">
+                        <input type="radio" name="Direct / सीधा " id="">
+                        <label for="Direct / सीधा ">Direct / सीधा </label>&nbsp;&nbsp;
+                        <input type="radio" name="" id="">
+                        <label for="Institute / संस्थान">Institute / संस्थान</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">6.1.1</td>
+                    <td class="col2">Select State of Accredited Institute / मान्यता प्राप्त संस्थान के राज्य का चयन
+                        करें*</td>
+                    <td class="col3">
+                        <select name="institute" id="">
+                            <option value="select one">select one</option>
+
+
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="col1">6.1.2</td>
+                    <td class="col2">Select Centre Name of Accredited Institute / मान्यता प्राप्त संस्थान के केंद्र के
+                        नाम का चयन
+                        करें*
+                    </td>
+                    <td class="col3">
+                        <select name="institute" id="">
+                            <option value="select one">select one</option>
+                        </select>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td class="col1">6.2</td>
+                    <td class="col2">Applied for Examination / किस परीक्षा के लिए आवेदन किया*</td>
+                    <td class="col3">
+                        <select name="Exam cycle" id="">
+                            <option value="select exam cycle">Select Exam Cycle</option>
+
+                        </select>
+                        <select name="exam name" id="">
+                            <option value="select exam name">Select Exam Name</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">6.3</td>
+                    <td class="col2">Examination Location 1 / परीक्षा केंद्र 1*</td>
+                    <td class="col3">
+                        <select name="state" id="">
+                            <option value="select state">Select State</option>
+                        </select>
+                        <select name="location" id="">
+                            <option value="select location">Select location</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">6.4</td>
+                    <td class="col2"> Examination Location 2 / परीक्षा केंद्र 2* </td>
+                    <td class="col3">
+
+                        <select name="location" id="">
+                            <option value="select location">Select location</option>
+                        </select>
+
+                        <select name="state" id="">
+                            <option value="select state">Select State</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <div class="head2">
+                <h3>7. Identification Details / पहचान की सूचना </h3>
+            </div>
+
+            <table>
+                <tr>
+                    <td class="col1">7.1</td>
+                    <td class="col2"> Aadhar Card Number / आधार कार्ड संख्या </td>
+                    <td class="col3"><input type="text" name="" id=""></td>
+
+                </tr>
+                <tr>
+                    <td class="col1">7.2</td>
+                    <td class="col2">Upload Photo / फोटो अपलोड करें *
+                        <br><input type="file" name="photo" id="myfile">
+                        <p>(Only JPEG/JPG image allowed with the size 5 KB to 50 KB, Dimension should be 132X170 pixels
+                            (width
+                            132
+                            pixels & height 170 pixels) and DPI 96 to 300)
+                            (i) The colour photos taken professionally (not on a mobile phone) during the last six
+                            months
+                            with
+                            white
+                            background should be used.
+                            (ii) The facial features of the person should be clearly visible and no goggles to be used
+                            and
+                            no
+                            part
+                            of the face should be covered.
+                        </p>
+                    </td>
+                    <td class="col3">
+                        Photo
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col1">7.3</td>
+                    <td class="col2"> Upload Signature / हस्ताक्षर अपलोड करें *
+                        <br> <input type="file" name="sign" id="myfile">
+                        <p>(Only JPEG/JPG image allowed with the size 5 KB to 20 KB, Dimension should be 170X132 pixels
+                            (width
+                            170 pixels & height 132 pixels) and DPI 96 to 200)
+                            (i) Signature should be taken on white paper using black/blue pen.
+                            (ii) Image should not be blurred or smudged. </p>
+                    </td>
+                    <td class="col3">Signature</td>
+
+                </tr>
+                <tr>
+                    <td class="col1">7.4</td>
+                    <td class="col2">Upload left thumb impression / बांए हाथ के अंगूठे का निशान अपलोड करें*
+                        <br><input type="file" name="thumb" id="myfile">
+                        <p>(Only JPEG/JPG image allowed with the size 5 KB to 20 KB, Dimension should be 170X132 pixels
+                            (width
+                            170 pixels & height 132 pixels) and DPI 96 to 200)
+                            (i) Left thumb impression should be taken on white paper using black/blue ink.
+                            (ii) Image should not be blurred or smudged. </p>
+                    </td>
+                    <td class="col3">Left Thumb Impression </td>
+                </tr>
+
+            </table>
+            <div class="center head4">
+                <p id="captchaHeading">
+                    Please enter the following number you see into the textbox below.
+                </p>
+                <div id="captchaBackground">
+                    <canvas id="captcha" class="t-captcha">captcha text</canvas>
+                    <input id="textBox" type="text" name="text">
+                    <span id="output"></span>
+                </div>
+        
+            </div>
+        
+
+
+            <!-- Declaration / घोषणा      -->
+            <div class="declaration">
+                <div class="head2">
+                    <h3 >8. Declaration / घोषणा </h3>
+                </div>
+                <div class="row" style="padding: 0 10px 0 10px;">
+                    <p> <input type="checkbox" name="box" required>
+
+                        * I , hereby declare that the particulars submitted by me in the online examination application
+                        form
+                        of
+                        CCC
+                        are
+                        true to the best of my knowledge and belief. I agree to abide by the rules and regulations of
+                        NIELIT
+                        and
+                        also to
+                        the decision of NIELIT regarding my admission for the examination. I have noted that, NIELIT has
+                        the
+                        right
+                        to
+                        withhold my result even after my appearing in the examination in addition to any other action as
+                        may
+                        be
+                        deemed
+                        fit in the event of any of the statements/particulars made above being found incorrect. I have
+                        noted
+                        that, I
+                        might be required to appear in the examination at any other examination center not specified
+                        under
+                        examination
+                        center choice column (6.3,6.4). I further understand that, in the event of non-conduction
+                        /non-evaluation of
+                        my
+                        examination due to any reason whatsoever, I will not held NIELIT responsible for any damages.
+                    </p>
+                    <br>
+                    <p> मैं , यह घोषणा करता/ करती हूँ कि कंप्यूटर अवधारणाओं पर कोर्स परीक्षा हेतु ऑनलाइन आवेदन फार्म में
+                        मेरे
+                        द्वारा
+                        वर्णित समस्त जानकारी मेरे ज्ञान और विश्वास से सत्य है। मैं रा.इ.सू.प्रौ.सं. के नियमों व विनियमों
+                        तथा
+                        मेरी
+                        परीक्षा हेतु प्रवेश से संबंधित रा.इ.सू.प्रौ.सं. के निर्णयों से भी सहमत हूँ। मुझे ज्ञात है कि
+                        रा.इ.सू.प्रौ.सं. को
+                        उपर्युक्त उल्लिखित किसी भी प्रकार का कथन/ विवरण असत्य पाये जाने पर परीक्षा में मेरी उपस्थिति के
+                        पश्चात
+                        भी
+                        मेरा
+                        परिणाम रोके जाने के अतिरिक्त अन्य कोई कार्रवाई जो उचित समझी जाए, अधिकार है। मुझे ज्ञात है कि
+                        मेरी
+                        परीक्षा
+                        केंद्र
+                        चयन कॉलम(6.3,6.4) के अंतर्गत किसी भी अन्य परीक्षा केंद्र में करायी जा सकती है। आगे, मैं यह भी
+                        समझता
+                        हूँ
+                        कि
+                        किसी
+                        भी प्रकार के कारणवश मेरी परीक्षा के अनिर्धारण/अवमूल्यांकन की स्थिति में, मेरी किसी प्रकार की
+                        क्षति
+                        के
+                        लिए
+                        रा.इ.सू.प्रौ.सं.उत्तरदायी नहीं होगा।</p>
+
+                </div>
+
+                <div class="btn">
+                    <button>Submit</button>
+                    <button>Back</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+   
+    <div>
+
+        <footer class="footer">Designed and Developed by Avi</footer>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
